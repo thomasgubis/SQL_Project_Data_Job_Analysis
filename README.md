@@ -17,11 +17,11 @@ The main questions addressed are:
 - What are the most valuable skills to learn?
 
 # Tools I Used
-- SQL – Core tool for querying and analyzing the dataset
-- PostgreSQL – Database system used to manage and process the data
-- Visual Studio Code – Environment for writing and executing SQL queries
-- Git & GitHub – Version control and project sharing
-- Excel – Used for data visualization and exploratory analysis
+- **SQL** – Core tool for querying and analyzing the dataset
+- **PostgreSQL** – Database system used to manage and process the data
+- **Visual Studio Code** – Environment for writing and executing SQL queries
+- **Git & GitHub** – Version control and project sharing
+- **Excel** – Used for data visualization and exploratory analysis
 
 These tools enabled efficient data extraction, transformation, and interpretation throughout the project.
 
@@ -29,7 +29,7 @@ These tools enabled efficient data extraction, transformation, and interpretatio
 
 The analysis is structured around five key questions:
 
-1. Top-Paying Data Analyst Jobs
+**1. Top-Paying Data Analyst Jobs**
 
 Identified the highest-paying remote data analyst roles by filtering for salary and location. This highlights where the most lucrative opportunities exist.
 
@@ -54,7 +54,7 @@ ORDER BY
 LIMIT 10;
 ```
 
-2. Skills Required for Top-Paying Jobs
+**2. Skills Required for Top-Paying Jobs**
 
 Analyzed the skill sets associated with high-paying roles to understand what employers value most at the upper end of the market.
 
@@ -88,7 +88,7 @@ ORDER BY
     salary_year_avg DESC;
 ```
 
-3. Most In-Demand Skills
+**3. Most In-Demand Skills**
 
 Measured frequency of skills across job postings to determine which competencies are most commonly required.
 
@@ -110,7 +110,7 @@ ORDER BY
 LIMIT 5;
 ```
 
-4. Skills Associated with Higher Salaries
+**4. Skills Associated with Higher Salaries**
 
 Compared average salaries by skill to identify which technologies and tools correlate with higher compensation.
 
@@ -132,7 +132,7 @@ ORDER BY
 LIMIT 25;
 ```
 
-5. Optimal Skills to Learn
+**5. Optimal Skills to Learn**
 
 Combined demand and salary insights to determine which skills provide the best return on investment for career growth.
 
@@ -162,11 +162,11 @@ LIMIT 25;
 
 # What I Learned
 
-Developed strong SQL fundamentals, including joins, aggregations, subqueries, and CTEs
-Improved ability to analyze real-world datasets and extract meaningful insights
-Learned how to structure queries to answer business-driven questions
-Gained experience translating raw data into clear, actionable conclusions
-Strengthened data visualization skills using Excel
+- Developed strong SQL fundamentals, including joins, aggregations, subqueries, and CTEs
+- Improved ability to analyze real-world datasets and extract meaningful insights
+- Learned how to structure queries to answer business-driven questions
+-Gained experience translating raw data into clear, actionable conclusions
+- Strengthened data visualization skills using Excel
 
 More importantly, this project reinforced how data analysis is not just about querying data, but about asking the right questions and interpreting results effectively.
 
