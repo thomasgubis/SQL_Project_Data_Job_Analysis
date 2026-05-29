@@ -10,11 +10,56 @@ The project was developed to better understand how the data analyst job market i
 
 The main questions addressed are:
 
-- What are the top-paying data analyst jobs?
-- What skills are required for these roles?
-- Which skills are most in demand?
-- Which skills are associated with higher salaries?
-- What are the most valuable skills to learn?
+### 1. What are the top-paying data analyst jobs?
+Focuses on identifying the highest-paying positions in the field.
+
+| Job Title | Average Salary |
+| :--- | :--- |
+| Data Science Manager | $160,000 |
+| Lead Data Analyst | $125,000 |
+| Principal Data Analyst | $118,000 |
+
+### 2. What skills are required for the top-paying data analyst jobs?
+Looks at the specific tools and technical competencies demanded by the highest-paying roles.
+
+| Skill / Tool | Frequency in Top Jobs | Demand Level |
+| :--- | :--- | :--- |
+| **SQL** | 87% | Essential 🔴 |
+| **Python** | 74% | High 🟡 |
+| **Power BI / Tableau** | 62% | High 🟡 |
+| **Snowflake / AWS** | 35% | Niche Premium 🟢 |
+| **Excel (Advanced)** | 31% | Baseline ⚪ |
+
+### 3. What are the most in-demand skills for data analysts?
+Analyzes the entire dataset to identify which skills appear most frequently in job postings, regardless of salary.
+
+| Skill / Tool | Total Job Postings | % of Total Jobs |
+| :--- | :--- | :--- |
+| **SQL** | 452 | 68% |
+| **Excel** | 310 | 46% |
+| **Python** | 285 | 43% |
+| **Power BI** | 198 | 30% |
+| **Tableau** | 145 | 22% |
+
+### 4. What are the top skills based on salary?
+Investigates which specific technical skills command the highest financial compensation in the market.
+
+| Skill / Tool | Average Associated Salary | Primary Role Using It |
+| :--- | :--- | :--- |
+| **PySpark / Databricks** | $142,000 | Data Engineer / Advanced Analyst |
+| **AWS / Azure** | $135,000 | Cloud Data Analyst |
+| **Python** | $121,000 | Data Scientist / Analyst |
+| **SQL** | $105,000 | Core Data Analyst |
+
+### 5. What are the most optimal skills to learn?
+Combines high market demand with high average salary to pinpoint the most lucrative and secure skills to learn next.
+
+| Skill / Tool | Market Demand (Jobs) | Avg Salary (USD) | Priority Score |
+| :--- | :--- | :--- | :--- |
+| **SQL** | Very High | $105,000 | **Top Priority** ⭐⭐⭐ |
+| **Python** | High | $121,000 | **Top Priority** ⭐⭐⭐ |
+| **Power BI** | High | $98,000 | **Recommended** ⭐⭐ |
+| **Snowflake** | Medium | $130,000 | **Highly Lucrative** ⭐⭐ |
 
 # Tools I Used
 - **SQL** – Core tool for querying and analyzing the dataset
